@@ -30,4 +30,17 @@ public class ContactTest {
 		System.out.println(USERNAME);
 		System.out.println(PASSWORD);
 	}
+	@Test
+	public void deleteContactTest() {
+		System.out.println("Execute deleteContactTest");
+		String BROWSER=System.getProperty("Browser");
+		String URL=System.getProperty("Url");
+		String USERNAME=System.getProperty("Username");
+		String PASSWORD=System.getProperty("Password");
+		
+		System.out.println(BROWSER);
+		System.out.println(URL);
+		System.out.println(USERNAME);
+		System.out.println(PASSWORD);
+	}
 }
